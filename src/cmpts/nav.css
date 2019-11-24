@@ -1,0 +1,135 @@
+/* navbar */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333;
+  margin: 0;
+  padding: 0;
+  background-image: url("test.jpg");
+}
+
+.nav li{
+  float:right;
+  padding:5px;
+  margin: 10px;
+}
+
+.nav li a{
+  color: white;
+  text-decoration:none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li a:hover{
+  color: yellow;
+  margin: 0;
+  padding: 0;
+}
+
+/* body */
+.leftside{
+  background-color: #008000;
+  float: left;
+  position: relative;
+  width: 20%;
+  border-style: solid;
+  border-width: 0px 3px 0px 0px;
+  background-image: url("test.jpg");
+}
+
+.second{
+  display: flex;
+}
+
+.rightside{
+  width: 80%
+}
+
+#imgo{
+  width:100%
+}
+
+.leftside p{
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+}
+
+.buttons{
+  background-color: white;
+  height: 50px;
+  width: 80%;
+  font-size: 15px;
+  border-radius: 55%;
+}
+
+.buttons:hover {
+  color: green;
+  font-size: 18px;
+}
+
+.form-contact{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 80%;
+  height: 500px;
+  margin: auto;
+}
+
+.row{
+  margin: auto;
+  border-color: red;
+  width: 100%;
+  padding: 5px;
+}
+
+.row .label-names{
+  float: left;
+  display: block;
+  width: 25%;
+  margin: auto;
+}
+
+.row .input-names{
+  border-color: black;
+  width: 70%;
+}
+
+.texto{
+  width: 80%;
+  height: 300px;
+}
+
+.submit{
+  display: block;
+  width: 100px;
+  margin: auto;
+}
+
+.competences{
+  height: 150px;
+  display: flex;
+  background-image: url("comp.jpg");
+}
+
+#titlepage{
+  display: block;
+  color: white;
+  margin: auto;
+}
+
+#imgi{
+  border-color: black;
+  height: 120px;
+  width: 120px;
+}
